@@ -1,0 +1,11 @@
+flask
+google-cloud-logging
+google-cloud-firestore
+google-cloud-aiplatform
+langchain
+langchain-experimental==0.3.4
+langchain-community
+langchain-google-vertexai
+pymupdf
+
+#This ensures the environment is reproducible.
