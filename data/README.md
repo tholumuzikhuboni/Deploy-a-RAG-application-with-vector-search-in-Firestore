@@ -1,4 +1,4 @@
-# 📂 data/ Directory
+# data/ Directory
 
 This folder is used to store **raw source documents** that will be ingested into the vector database during **Tasks 1 & 2** of the lab.
 
@@ -6,13 +6,13 @@ In this challenge lab, the primary source of truth is a **Food Safety Manual PDF
 
 ---
 
-## 📄 What Goes in This Folder?
+## What Goes in This Folder?
 
 You should place **raw, unprocessed documents** here, such as:
 
-- 📘 PDF manuals (e.g., food safety guides)
-- 📄 Text files (.txt)
-- 🧾 Markdown files (.md)
+- PDF manuals (e.g., food safety guides)
+- Text files (.txt)
+- Markdown files (.md)
 
 For this lab, the main document is:
 
@@ -24,7 +24,7 @@ This file is downloaded directly from a Google Cloud Storage bucket during the i
 
 ---
 
-## 🚀 How This Folder Is Used in the Lab
+## How This Folder Is Used in the Lab
 
 ### Step 1: Download the PDF
 
@@ -69,18 +69,18 @@ Once this step is complete, the `data/` folder is no longer used at runtime.
 
 ---
 
-## 🧠 Important Concept (Beginner Friendly)
+## Important Concept (Beginner Friendly)
 
 Think of this folder like a **library intake desk**:
 
-- 📚 Raw books go in (`data/`)
-- 🧠 Knowledge is extracted (embeddings)
-- 🗄️ Knowledge is stored elsewhere (Firestore)
-- 🤖 The chatbot never reads the raw book again
+- Raw books go in (`data/`)
+- Knowledge is extracted (embeddings)
+- Knowledge is stored elsewhere (Firestore)
+- The chatbot never reads the raw book again
 
 ---
 
-## ⚠️ Best Practices
+## Best Practices
 
 - Do **not** commit large PDFs to GitHub unless required
 - This folder is mainly for **local ingestion**, not production runtime
@@ -94,7 +94,7 @@ data/*.pdf
 
 ---
 
-## ✅ Summary
+## Summary
 
 | Folder | Purpose |
 |------|--------|
@@ -104,5 +104,4 @@ data/*.pdf
 
 ---
 
-You are now ready to move on to **embedding, vector search, and RAG generation** 🚀
-
+You are now ready to move on to **embedding, vector search, and RAG generation**
