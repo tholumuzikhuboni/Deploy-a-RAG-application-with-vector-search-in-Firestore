@@ -1,18 +1,5 @@
-# Use official Python image
-FROM python:3.12-slim
-
-# Set working directory
+FROM python:3.9-slim
 WORKDIR /app
-
-# Copy requirements and install
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
-
-# Copy the application code
 COPY . .
-
-# Expose port
-EXPOSE 8080
-
-# Run the Flask app
-CMD ["python3", "main.py"]
+RUN pip install --no-cache-dir -r requirements.txt
+CMD exec gunicorn --bind :$PORT --workers 1 --threads 8 --timeout 0 main:app
