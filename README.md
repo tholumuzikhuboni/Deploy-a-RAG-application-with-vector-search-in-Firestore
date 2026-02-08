@@ -1,6 +1,6 @@
 # FreshBot: A RAG App with Firestore & Gemini 2.0
 
-![FreshBot Banner](https://user-images.githubusercontent.com/placeholder/banner.png)
+![FreshBot Banner](https://github.com/tholumuzikhuboni/Deploy-a-RAG-application-with-vector-search-in-Firestore/blob/ee86a686fee6792ebcf3f443c2c4ccc36f1b71e1/HHLBQBk5%2BMXjSDVwBEFj57dIt61d7ms2VdkwS9CFJNw%3D.png)
 
 **Lab Code:** `GENAI069`  
 **Target Model:** `Gemini 2.0 Flash`  
